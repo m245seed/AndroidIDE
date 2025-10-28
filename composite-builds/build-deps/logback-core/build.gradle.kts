@@ -42,7 +42,8 @@ dependencies {
     compileOnly("org.codehaus.janino:commons-compiler:+")
     compileOnly("org.fusesource.jansi:jansi:+")
     compileOnly("jakarta.mail:jakarta.mail-api:+")
-    compileOnly("jakarta.servlet:jakarta.servlet-api:+")
+    // Pin to stable version to avoid broken POM with SNAPSHOT dependencies
+    compileOnly("jakarta.servlet:jakarta.servlet-api:5.0.0")
 
     testCompileOnly("org.eclipse.angus:angus-mail:+")
     testCompileOnly("org.mockito:mockito-core:+")
