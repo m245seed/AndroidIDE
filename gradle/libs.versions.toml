@@ -1,7 +1,7 @@
 [versions]
-agp = "8.7.3"
-agp-tooling = "8.7.3"
-gradle-tooling = "8.11"
+agp = "8.5.2"
+agp-tooling = "8.5.2"
+gradle-tooling = "8.6"
 junit-jupiter = "5.11.3"
 kotlin = "1.9.25"
 kotlin-coroutines = "1.9.0"
@@ -17,7 +17,7 @@ androidx-espresso = "3.6.1"
 retrofit = "2.11.0"
 markwon = "4.6.2"
 maven-publish-plugin = "0.30.0"
-logback = "1.5.12"
+logback = "1.5.3"
 realm = "10.18.0"
 benchmark = "1.3.3"
 benchmark-junit4 = "1.3.3"
@@ -118,10 +118,10 @@ google-java-format = { module = "com.google.googlejavaformat:google-java-format"
 google-flexbox = { module = "com.google.android.flexbox:flexbox", version = "3.0.0" }
 
 # AAPT2
-aapt2-common = { module = "com.android.tools:common", version = "31.7.3" }
-aapt2-annotations = { module = "com.android.tools:annotations", version = "31.7.3" }
+aapt2-common = { module = "com.android.tools:common", version = "31.5.2" }
+aapt2-annotations = { module = "com.android.tools:annotations", version = "31.5.2" }
 aapt2-jb-annotations = { module = "org.jetbrains:annotations", version = "26.0.1" }
-aapt2-proto = { module = "com.android.tools.build:aapt2-proto", version = "8.7.3-12028772" }
+aapt2-proto = { module = "com.android.tools.build:aapt2-proto", version = "8.5.2-11315950" }
 
 # use logback-core from logback-android instead
 #logging-logback-core = { module = "ch.qos.logback:logback-core", version.ref = "logback" }
@@ -136,7 +136,7 @@ xml-resolver = { module = "xml-resolver:xml-resolver", version = "1.2" }
 xml-jb-annotations = { module = "org.jetbrains:annotations", version = "26.0.1" }
 
 # GIT
-git-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version = "7.1.0.202411261347-r" }
+git-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version = "6.10.0.202406032230-r" }
 
 # Tests
 tests-junit = { module = "junit:junit", version = "4.13.2" }
